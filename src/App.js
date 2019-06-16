@@ -125,11 +125,6 @@ function App() {
            "retina_detect": true
          }}>
        </Particles>
-      <Router>
-        <div>
-          <Nav />
-        </div>
-      </Router>
       <Banner/>
         <Particles
           params={{

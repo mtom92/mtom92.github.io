@@ -5,9 +5,9 @@ import { FaGithub , FaGlobeAmericas, FaRegEnvelope, FaTwitter } from "react-icon
 import '../App.css';
 import {BrowserRouter as Link } from 'react-router-dom'
 import project1 from '../imgs/project1.gif';
-import project2 from '../imgs/project2.png';
-import project3 from '../imgs/project3.png';
-import project4 from '../imgs/project4.png';
+import project2 from '../imgs/project2.gif';
+import project3 from '../imgs/project3.gif';
+import project4 from '../imgs/project4.gif';
 import Particles from 'react-particles-js';
 
 class Projects extends Component {
