@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "mtom92.github.io/static/css/main.3b147c7d.chunk.css",
+    "main.js": "mtom92.github.io/static/js/main.2ed04cb1.chunk.js",
+    "main.js.map": "mtom92.github.io/static/js/main.2ed04cb1.chunk.js.map",
+    "runtime~main.js": "mtom92.github.io/static/js/runtime~main.50e55185.js",
+    "runtime~main.js.map": "mtom92.github.io/static/js/runtime~main.50e55185.js.map",
+    "static/css/2.266e55a5.chunk.css": "mtom92.github.io/static/css/2.266e55a5.chunk.css",
+    "static/js/2.6d91823d.chunk.js": "mtom92.github.io/static/js/2.6d91823d.chunk.js",
+    "static/js/2.6d91823d.chunk.js.map": "mtom92.github.io/static/js/2.6d91823d.chunk.js.map",
+    "index.html": "mtom92.github.io/index.html",
+    "precache-manifest.e31bcc0bfe73991dac7008ad166597ac.js": "mtom92.github.io/precache-manifest.e31bcc0bfe73991dac7008ad166597ac.js",
+    "service-worker.js": "mtom92.github.io/service-worker.js",
+    "static/css/2.266e55a5.chunk.css.map": "mtom92.github.io/static/css/2.266e55a5.chunk.css.map",
+    "static/css/main.3b147c7d.chunk.css.map": "mtom92.github.io/static/css/main.3b147c7d.chunk.css.map",
+    "static/media/logo.svg": "mtom92.github.io/static/media/logo.5d5d9eef.svg",
+    "static/media/miguel_pic.jpg": "mtom92.github.io/static/media/miguel_pic.e18b48d9.jpg",
+    "static/media/project1.gif": "mtom92.github.io/static/media/project1.678e4f6c.gif",
+    "static/media/project2.gif": "mtom92.github.io/static/media/project2.912039aa.gif",
+    "static/media/project3.gif": "mtom92.github.io/static/media/project3.83799dea.gif",
+    "static/media/project4.gif": "mtom92.github.io/static/media/project4.86582ec5.gif"
+  }
+}
