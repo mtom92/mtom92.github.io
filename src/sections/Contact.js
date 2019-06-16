@@ -10,8 +10,10 @@ class Contact extends Component {
      <Container id="contact">
        <Row>
          <Col>
-            <h1 id="title">Contact Me</h1>
-            <h6>Let's develop together !!</h6>
+           <div class="sections_header">
+             <h1 id="title">Contact Me</h1>
+             <h6>Let's develop together !!</h6>
+           </div>
              <span className="animate-border ml-auto mr-auto"></span>
         </Col>
       </Row>

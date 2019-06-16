@@ -17,8 +17,10 @@ class Projects extends Component {
     <Container id="projects">
       <Row>
         <Col>
-          <h1 id="title">Projects</h1>
-          <h6>Pieces of my work</h6>
+          <div class="sections_header">
+            <h1 id="title">Projects</h1>
+            <h6>Pieces of my work</h6>
+          </div>
           <span className="animate-border ml-auto mr-auto"></span>
         </Col>
       </Row>

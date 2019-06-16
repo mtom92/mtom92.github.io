@@ -2,6 +2,7 @@ import React , {Component} from 'react';
 import { Jumbotron , Container, Row, Col} from 'reactstrap';
 import { FaGitSquare , FaJsSquare, FaHtml5, FaNodeJs, FaReact, FaPython } from "react-icons/fa";
 import { DiPostgresql} from "react-icons/di";
+import TextLoop from "react-text-loop";
 import '../App.css';
 import pic from '../imgs/miguel_pic.jpg';
 
@@ -11,21 +12,22 @@ class Banner extends Component {
 
     <div >
       <section id="header">
-                <div className="jumbotron ">
-                    <div className="container">
+
+                    <Container>
                         <div className="col-12">
-                            <div className="card bg-dark shadow-lg">
-                            <div className="card-body bg-info about">
+                            <div className="card shadow-lg">
+                            <div className="card-body about">
                                 <div className="row">
-                                <div className="col-md-3 col-xs-12 d-flex justify-content-center">
-                                    <img  id="pic" src={pic}  className="shadow-lg p-2 photo" alt="Mahipat Jadav" />
+                                <div className="col-md-3 col-xs-12 ">
+                                    <img  id="pic" src={pic}  className="shadow-lg p-2"  />
                                 </div>
                                 <div className="col-md-9 col-xs-12 about-text">
-                                    <h1 className="card-text text-black">Hi, I'm Miguel Torres</h1>
-                                    <h4 className="card-text text-black">Full stack developer 👨🏾‍💻 </h4>
-                                    <hr/>
-                                    <h4>
                                     <div>
+                                      <h1 >Hi, I'm Miguel Torres</h1>
+                                    </div>
+                                    <hr/>
+                                    <div>
+                                      <h4>
                                         <FaGitSquare size={42} color='#266063' id="icon"/>
                                         <FaJsSquare size={42} color='#266063' id="icon"/>
                                         <DiPostgresql size={42} color='#266063' id="icon"/>
@@ -33,20 +35,32 @@ class Banner extends Component {
                                         <FaNodeJs size={42} color='#266063' id="icon"/>
                                         <FaReact  size={42} color='#266063' id="icon"/>
                                         <FaPython size={42} color='#266063' id="icon"/>
+                                      </h4>
                                     </div>
+                                    <div>
+                                      <Row>
+                                        <Col lg="3"></Col>
+                                        <Col lg="3">
+                                          <h2 id="message">
+                                            <TextLoop noWrap="false" springConfig={{ stiffness: 190, damping: 20 ,precision:0.1}}
+                                              children={["Web Developer 👨🏾‍💻", "Engineer 👨🏾‍🔧🤖 ", "Scrum master 🤜🏽🤛🏾 ", "Human being  😁 "]} />
 
-                                    </h4>
+                                          </h2>
+                                        </Col>
+                                        <Col lg="3"></Col>
+                                      </Row>
+                                    </div>
                                 </div>
                                 </div>
                             </div>
-                            <div className="card-body2 bg-dark shadow-lg">
-                                <h5 className="card-title">My Toolbox</h5>
-                                <h2 className="card-text">JavaScript   |   Node.js   |   React   |    Python   |   Django   |    PostgreSQL   |  Mongo  | HTML+CSS |  Git   |    Bootstrap     |    Materialize  |     Salesforces    |    Scrum  |  </h2>
+                            <div class="card-body bg-dark shadow-lg">
+                              <h5 class="card-title">My Toolbox</h5>
+                              <h2 class="card1-text">Javascript, HTML5, CSS3, ReactJS, NodeJS, Bootstrap, DB(Mongodb, Postgresql), Django, Python, Materialize, Salesforces.</h2>
                             </div>
                             </div>
                         </div>
-                    </div>
-                </div>
+                    </Container>
+
             </section>
      </div>
 

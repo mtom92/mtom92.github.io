@@ -8,7 +8,9 @@ class About extends Component {
 
     <div>
        <Container id="about">
-         <h1 id="title" >About Me </h1>
+         <div class="sections_header">
+           <h1 id="title" >About Me </h1>
+         </div>
          <span className="animate-border ml-auto mr-auto"></span>
          <div class="block_info">
            <p className="aboutme_info">I am a full stack web developer with knowledge in agile and waterfall methodologies

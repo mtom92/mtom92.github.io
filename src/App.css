@@ -1,32 +1,8 @@
 .App {
-  text-align: center;
+  background-color: #005792;
+  color: #D9FAFF;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-.jumbo{
-  background-color: #3390e8;
-  height: 40em;
-}
 
 #icon{
   margin-right: 20px;
@@ -75,19 +51,25 @@
   margin-left: 15px;
   margin-bottom: 10px;
 }
-.year_card{
-  text-align: left;
-}
 
 .col_cards{
   margin-top: 20px;
 }
 
-.card-body2{
-  color:#1ba4d1;
-}
+
 #pic{
-  height: 300px;
+  width: 100%;
+  border-bottom-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+  border-top-left-radius: 20%;
+  border-top-right-radius: 20%;
+}
+
+#pic:hover {
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
 }
 
 /* setion title border animation */
@@ -96,11 +78,7 @@
   display: block;
   width: 155px;
   height: 3px;
-  background: #1ba4d1;
-}
-.animate-border.border-green:after {
-  border-right-color: #f7f7f7;
-  border-left-color: #f7f7f7;
+  background: #00BBF0;
 }
 .animate-border:after {
   position: absolute;
@@ -125,19 +103,6 @@
   animation: animborder 2s linear infinite;
 }
 
-#title{
-  font-family: "Press Start 2P";
-}
-
-#titlecard{
-  font-family: "Sarpanch";
-  font-size: 30px;
-}
-
-#block_info , .block_info{
-  font-family: "Audiowide";
-}
-
 @-webkit-keyframes animborder {
   0% {
     -webkit-transform: translateX(0px);
@@ -159,8 +124,32 @@
   }
 }
 
+#title{
+  font-family: "Press Start 2P";
+}
+
+.sections_header{
+  text-align: center;
+}
+
+#titlecard{
+  font-family: "Sarpanch";
+  font-size: 30px;
+  color:#D9FAFF;
+}
+
+#block_info , .block_info{
+  font-family: "Audiowide";
+  color:#D9FAFF;
+}
+
 .container .card{
   border:0 !important;
+}
+
+.card{
+  background-color: #333 !important;
+  border-radius: 30px !important;
 }
 
 .container-fluid{
@@ -177,6 +166,40 @@
   background: #17a2b8 !important;
 }
 
-#header .jumbotron{
-  background: #17a2b8 !important;
+#header {
+  margin-bottom: 40px;
+}
+
+.about{
+  background-color:#00204A ;
+}
+
+.about-text{
+  padding-top: 8%;
+}
+
+h2.card1-text {
+    font-size: 1rem;
+    color:#D9FAFF;
+    text-align:left;
+}
+
+.card-text:last-child {
+    margin-bottom: 0;
+}
+
+h5.card-title{
+  color:#D9FAFF;
+  text-align:left;
+}
+
+#message{
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 600px){
+  #message{
+    margin-top: 30px;
+    font-size: 17px;
+  }
 }
