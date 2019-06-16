@@ -43,7 +43,7 @@ class Banner extends Component {
                                         <Col lg="3">
                                           <h2 id="message">
                                             <TextLoop noWrap="false" springConfig={{ stiffness: 190, damping: 20 ,precision:0.1}}
-                                              children={["Web Developer 👨🏾‍💻", "Engineer 👨🏾‍🔧🤖 ", "Scrum master 🤜🏽🤛🏾 ", "Human being  😁 "]} />
+                                              children={["Web Developer 👨🏾‍💻", "Engineer 👨🏾‍🔧🤖 ", "Scrum master 👨🏾‍💼🤜🏽🤛🏾 ","Mexican 🙎🏾‍♂️🇲🇽 ", "Human being  🤷🏾‍♂️ "]} />
 
                                           </h2>
                                         </Col>

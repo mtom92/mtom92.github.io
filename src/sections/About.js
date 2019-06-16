@@ -1,6 +1,7 @@
 import React , {Component} from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import '../App.css';
+import { FaGithubAlt , FaLinkedin, FaRegEnvelope, FaTwitter } from "react-icons/fa";
 
 class About extends Component {
   render(){
