@@ -36,7 +36,10 @@ class Projects extends Component {
                 <img className="project_img"  src={project4} alt="Card image cap" />
                 <CardBody>
                   <CardText id="block_info" >Mercadito is Hispanic-owned business directory website. Business owners can
-                    register their business and users can search the directory, and save their favorites to their profile. </CardText>
+                    register their business and users can search the directory, and save their favorites to their profile.
+                    <br/><br/>
+                    Tech : Django , Postgresql , Python , Materialize , jQuery
+                  </CardText>
                     <Row>
                       <a href="https://github.com/mtom92/mercadito" ><FaGithub size={28} color='#2eabb2' id="oneicon"/></a>
                       <a href="https://django-mercadito.herokuapp.com/" class="active"><FaGlobeAmericas size={28} color='#2eabb2' id="twoicon"/></a>
@@ -53,7 +56,10 @@ class Projects extends Component {
                 <img className="project_img" src={project2} alt="Card image cap" />
                 <CardBody>
                   <CardText id="block_info">This app helps people search for jobs, determine how well their skillset
-                     matches those required for the job, and create a track record of job applications.</CardText>
+                     matches those required for the job, and create a track record of job applications.
+                     <br/><br/><br/>
+                     Tech : NodeJS , Javascript , Bootstrap , Postgresql
+                   </CardText>
                     <Row>
                       <a href="https://github.com/mtom92/Project2"><FaGithub size={28} color='#2eabb2' id="oneicon"/></a>
                       <a href="https://jobdev.herokuapp.com/"><FaGlobeAmericas size={28} color='#2eabb2' id="twoicon"/></a>
@@ -191,7 +197,10 @@ class Projects extends Component {
                 <CardBody>
                   <CardText id="block_info">The goal of this platforms game is to avoid obstacles and enemies to get
                     a key that opens a box. I used Phaser3
-                    gaming library to work with gaming physics like collision and gravity.</CardText>
+                    gaming library to work with gaming physics like collision and gravity.
+                    <br/><br/>
+                    Tech : Phaser3, Javascript , CSS , HTML5
+                  </CardText>
                     <Row>
                       <a href="https://github.com/mtom92/Project-1"><FaGithub size={28} color='#2eabb2' id="oneicon"/></a>
                       <a href="https://mtom92.github.io/Project-1/"><FaGlobeAmericas size={28} color='#2eabb2' id="twoicon"/></a>
@@ -208,7 +217,10 @@ class Projects extends Component {
                 <img className="project_img" src={project3} alt="Card image cap" />
                 <CardBody>
                   <CardText id="block_info">Kero is an app that enables IT teams to manage their sprints, visualize the goals of the sprint, and
-                    track the team´s progress toward achieving project goals.</CardText>
+                    track the team´s progress toward achieving project goals.
+                    <br/><br/><br/>
+                    Tech : React , Bootstrap , Mongoose , Javascript
+                  </CardText>
                     <Row>
                       <a href="https://github.com/mtom92/kero"><FaGithub size={28} color='#2eabb2' id="oneicon"/></a>
                       <a href="http://kerokero.herokuapp.com/"><FaGlobeAmericas size={28} color='#2eabb2' id="twoicon"/></a>
