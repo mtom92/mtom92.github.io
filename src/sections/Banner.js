@@ -14,7 +14,7 @@ class Banner extends Component {
       <section id="header">
 
                     <Container>
-                        <div className="col-12">
+                        <div className="col-12 firstcard">
                             <div className="card shadow-lg">
                             <div className="card-body about">
                                 <div className="row">
@@ -43,7 +43,7 @@ class Banner extends Component {
                                         <Col lg="3">
                                           <h2 id="message">
                                             <TextLoop noWrap="false" springConfig={{ stiffness: 190, damping: 20 ,precision:0.1}}
-                                              children={["I am Web Developer 👨🏾‍💻", "Engineer 👨🏾‍🔧🤖 ", "Scrum master 👨🏾‍💼🤜🏽🤛🏾 ","Mexican 🙎🏾‍♂️🇲🇽 ", "Human being  🤷🏾‍♂️ "]} />
+                                              children={["Web Developer 👨🏾‍💻", "Engineer 👨🏾‍🔧🤖 ", "Scrum master 👨🏾‍💼🤜🏽🤛🏾 ","Mexican 🙎🏾‍♂️🇲🇽 ", "Human being  🤷🏾‍♂️ "]} />
 
                                           </h2>
                                         </Col>

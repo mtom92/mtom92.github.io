@@ -140,7 +140,7 @@
 }
 
 #block_info , .block_info{
-  font-family: "Audiowide";
+  font-family: "Sarpanch";
   color:#D9FAFF;
 }
 
@@ -177,6 +177,13 @@
 
 .about-text{
   padding-top: 8%;
+}
+.about-text h1,.card-body h5, .card-body h2, p , .x0 , .x3 , .x4 , .x5, h6{
+  font-family: "Sarpanch";
+}
+
+.aboutme_info{
+  font-size: 24px;
 }
 
 h2.card1-text {
@@ -238,6 +245,10 @@ canvas{
 
 .project_img{
  height: 285px;
+}
+
+.firstcard{
+  padding-top: 30px;
 }
 
 @media only screen and (max-width: 600px){
