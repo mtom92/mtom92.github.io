@@ -17,7 +17,7 @@ class Contact extends Component {
              "value": 66,
              "density": {
                "enable": true,
-               "value_area": 700.0624057955
+               "value_area": 1200.0624057955
              }
            },
            "color": {

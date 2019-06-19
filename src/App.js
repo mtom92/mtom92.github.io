@@ -20,7 +20,7 @@ function App() {
                "value": 66,
                "density": {
                  "enable": true,
-                 "value_area": 800.0624057955
+                 "value_area": 1000.0624057955
                }
              },
              "color": {
@@ -248,7 +248,7 @@ function App() {
                 "value": 66,
                 "density": {
                   "enable": true,
-                  "value_area": 1000.0624057955
+                  "value_area": 1200.0624057955
                 }
               },
               "color": {

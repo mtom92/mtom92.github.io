@@ -76,10 +76,10 @@ class Projects extends Component {
       params={{
         "particles": {
           "number": {
-            "value": 156,
+            "value": 66,
             "density": {
               "enable": true,
-              "value_area": 1000.0624057955
+              "value_area": 1200.0624057955
             }
           },
           "color": {
