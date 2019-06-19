@@ -14,7 +14,7 @@ class Contact extends Component {
        params={{
          "particles": {
            "number": {
-             "value": 156,
+             "value": 66,
              "density": {
                "enable": true,
                "value_area": 700.0624057955

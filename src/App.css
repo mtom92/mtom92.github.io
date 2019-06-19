@@ -133,7 +133,7 @@
   text-align: center;
 }
 
-#titlecard{
+#card{
   font-family: "Sarpanch";
   font-size: 30px;
   color:#D9FAFF;
@@ -184,6 +184,7 @@
 
 .aboutme_info{
   font-size: 24px;
+  color:#D9FAFF;
 }
 
 h2.card1-text {
