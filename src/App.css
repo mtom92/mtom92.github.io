@@ -254,10 +254,14 @@ canvas{
 @media only screen and (max-width: 600px){
   #message{
     margin-top: 30px;
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .project_img{
    height: 250px;
+  }
+
+  canvas{
+    display: none;
   }
 }
