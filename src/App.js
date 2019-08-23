@@ -14,10 +14,11 @@ function App() {
   return (
     <div className="App">
        <Particles
+         height="520px"
          params={{
            "particles": {
              "number": {
-               "value": 66,
+               "value": 200,
                "density": {
                  "enable": true,
                  "value_area": 1000.0624057955
@@ -127,7 +128,7 @@ function App() {
        </Particles>
 
       <Banner/>
-        
+
       <About />
 
       <Projects />
