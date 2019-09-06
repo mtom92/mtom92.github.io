@@ -23,7 +23,6 @@ class Contact extends Component {
            <a href="https://github.com/mtom92"><FaGithubAlt size={42} color='#2eabb2' id="icon"/></a>
            <a href="https://www.linkedin.com/in/gerardo-miguel-torres-moran/"><FaLinkedin size={42} color='#2eabb2' id="icon"/></a>
            <a href="mailto:torresmoranm@gmail.com"><FaRegEnvelope  size={42} color='#2eabb2' id="icon"/></a>
-             <img className="project_img" src={project3} alt="Card image cap" />
            <a href="https://mtom92.github.io/mtom92.github.io/static/media/mt_resume.pdf"><FaRegFilePdf  size={41} color='#2eabb2' id="icon"/></a>
          </Col>
        </Row>
