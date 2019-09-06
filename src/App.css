@@ -144,6 +144,12 @@
   color:#D9FAFF;
 }
 
+#titlecard{
+  font-family: "Sarpanch";
+  color:#D9FAFF;
+  font-size: 25px;
+}
+
 .container .card{
   border:0 !important;
 }
